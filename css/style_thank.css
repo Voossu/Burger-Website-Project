@@ -1,0 +1,280 @@
+@font-face {
+	font-family:"HaginCapsMedium";
+	src:
+	url("/fonts/Hagin_Caps_Medium.otf") format("opentype"),
+	url("/fonts/Hagin_Caps_Medium.svg#HaginCapsMedium") format("svg");
+	font-weight:normal;
+	font-style:normal;
+}
+*{
+	margin: 0; padding: 0;
+}
+body{
+	background-color: #000;
+	color: #fff;
+}
+body {
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+	background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+
+}
+
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+header{
+	width: 100%;
+	height: 45px;
+	top:0;
+	position: fixed;
+	background-color: #000;
+	padding-bottom: 5px;
+}
+
+header span i{
+	cursor: pointer;
+}
+
+header .phone{
+	padding: 10px 10px 0 0;
+	font-family: 'Futura New';
+	font-size: 24px;
+	text-align: right;
+}
+
+.opencart i{
+	padding: 10px;
+	font-size: 28px;
+	float: left;
+}
+
+.welcome{
+	margin: 100px auto;
+	text-align: center;
+	overflow: hidden;
+	height: 202px;
+}
+
+.welcome img{
+	margin-bottom: 15px;
+}
+
+.social-list ul{
+	list-style: none;
+}
+.social-list li{
+	display: inline;
+}
+
+.catalog{
+	margin-top: 55px;
+	overflow: hidden;
+}
+
+.product-item{
+	margin: 50px auto;
+	width: 300px;
+	margin-right: 30px;
+}
+
+.product-item.last{
+	margin-right: 0px;
+}
+
+.product-item h3{
+	font-family: 'HaginCapsMedium';
+	font-size: 35px;
+	text-transform: uppercase;
+}
+.product-item h5{
+	font-family: 'Futura New';
+	font-weight: 200;
+	font-size: 14px;
+	margin: 15px 0 20px;
+	width: 200px;
+}
+.product-item p{
+	font-family: 'HaginCapsMedium';
+	width: 150px;
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+	padding: 0px 0px;
+	float: left;
+}
+.product-item a.buy{
+	font-family: 'HaginCapsMedium';
+	width: 150px;
+	text-align: center;
+	color: #fff;
+	background-color: #b71637;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 22px;
+	padding: 8px 0px;
+}
+
+
+
+.sidenav span{
+	text-transform: uppercase;
+	font-family: 'Futura New';
+	font-size: 29px;
+	color: #a71331;
+	text-decoration: none;
+	font-weight: 200;
+}
+
+.sidenav span a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: 200;
+}
+
+
+
+
+
+.sidenav form{
+	text-align: right;
+	width: 290px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.form-item{
+	margin-top: 3px;
+	height: 20px;
+}
+
+.form-item.last{
+	margin-bottom: 30px;
+}
+
+.form-item.first{
+	margin-top: 15px;
+}
+
+.form-item label{
+	float: left;
+	font-family: 'Futura New';
+	font-size: 14px;
+}
+
+.form-item input{
+	background-color: #b71637;
+	border: 2px solid #b71637;
+	width: 180px;
+	font-family: 'Futura New';
+	font-size: 14px;
+	color: #fff;
+}
+
+.form-item input.med{
+	background-color: #b71637;
+	border: 2px solid #b71637;
+	width: 100px;
+	margin-right: 80px;
+}
+
+.delivery{
+	text-align: center;
+	font-family: 'Futura New';
+	background-color: #000;
+	color: #fff;
+	font-size: 28px;
+	font-weight: 600;
+	padding-bottom: 25px;
+}
+.delivery p{
+	margin-top: 15px;
+}
+.delivery p span{
+	color: #b71637;
+}
+
+.contacts{
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+
+.contacts img{
+	width: 80%;
+	padding: 0 10%;
+	height: auto;
+	margin-bottom: 50px;
+}
+
+.contacts h3{
+	font-family: 'Futura New';
+	font-size: 22px;
+}
+
+.contacts h4{
+	padding-top: 25px;
+	font-family: 'Futura New';
+	font-size: 28px;
+
+}
+
+.contacts h5{
+	padding-top: 20px;
+	font-family: 'Futura New';
+	font-size: 38px;
+}
+
+.thank h2{
+	font-family: 'Futura New';
+	font-size: 36px;
+}
+.thank h3{
+	font-family: 'Futura New';
+	font-weight: 200;
+}
+
+.thank{
+	font-size: 18px;
+	font-weight: 100;
+	text-align: center;
+}
+
+a{
+	color: #fff;
+	font-family: 'Futura New';
+}

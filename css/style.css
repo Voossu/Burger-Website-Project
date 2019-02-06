@@ -1,0 +1,541 @@
+@font-face {
+    font-family: "Hagin Caps Medium";
+    src: url("/fonts/HaginCapsMedium.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "FuturaNew";
+    src: url("/fonts/FTN45.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "FuturaNewLight";
+    src: url("/fonts/FTN35.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+    background-color: #000;
+    color: #fff;
+}
+header {
+    background-color: #000;
+}
+.carousel img{
+    height: 338px;
+}
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+.full-cart .full-cart .block-total .wrapper {
+    padding-right: 260px;
+}
+.full-cart .block-order .wrapper {
+    padding-right: 280px;
+}
+.active {
+    background-color: #fff;
+    color: #000 !important;
+    border-bottom: 2px solid #fff;
+}
+.menu {
+    font-family: 'FuturaNew';
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    width: 100%;    
+    top: 0;
+    /* Position the navbar at the top of the page */
+    
+    z-index: 100;
+}
+.left-menu {
+    padding-top: 23px;
+    float: left;
+}
+.left-menu i {
+    margin-left: 20px;
+}
+.right-menu {
+    float: right;
+}
+.right-menu ul li {
+    display: inline;
+}
+.right-menu ul li a {
+    display: inline-block;
+    padding: 23px 25px;
+    text-decoration: none;
+    color: #fff;
+}
+.order-panel {
+}
+.full-cart .block-total {
+    background-color: #fff;
+    height: 40px;
+    border-bottom: 2px solid #fff;
+}
+.full-cart .block-total .item-total {
+    padding-top: 11px;
+    float: right;
+}
+.full-cart .block-total .item-total p {
+    color: #000;
+    float: left;
+    font-family: 'FuturaNew';
+    font-size: 18px;
+    margin-right: 40px;
+}
+.full-cart .block-total .item-total a {
+    color: #000;
+    font-family: 'FuturaNew';
+    font-size: 18px;
+    text-decoration: none;
+}
+.block-order {
+    background: rgba(0,0,0,0.9);
+    /*height: 535px;*/
+    
+    text-align: right;
+    padding: 35px 0 42px;
+}
+.block-order span {
+    text-transform: uppercase;
+    font-family: 'FuturaNew';
+    font-size: 29px;
+    color: #a71331;
+    text-decoration: none;
+    font-weight: 200;
+}
+.block-order span a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+}
+.block-order form {
+    text-align: right;
+    width: 290px;
+    margin-top: 30px;
+    margin-left: 670px;
+}
+.form-item {
+    margin-top: 3px;
+    height: 20px;
+}
+.form-item.last {
+    margin-bottom: 30px;
+}
+.form-item.first {
+    margin-top: 15px;
+}
+.form-item label {
+    float: left;
+    font-family: 'FuturaNew';
+    font-size: 14px;
+}
+.form-item input {
+    background-color: #b71637;
+    border: 2px solid #b71637;
+    width: 180px;
+    font-family: 'FuturaNew';
+    font-size: 14px;
+    color: #fff;
+}
+.form-item input.med {
+    background-color: #b71637;
+    border: 2px solid #b71637;
+    width: 100px;
+    margin-right: 80px;
+}
+.block-sum {
+    background-color: #fff;
+    height: 29px;
+    border-bottom: 2px solid #fff;
+    padding-top: 9px;
+}
+.block-sum .item-total {
+    float: right;
+}
+.block-sum .item-total p {
+    color: #000;
+    float: left;
+    font-family: 'FuturaNew';
+    font-size: 18px;
+    margin-right: 40px;
+}
+.block-sum .item-total a {
+    color: #fff;
+    font-family: 'FuturaNew';
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #b71637;
+    padding: 10px 25px 8px;
+    text-transform: uppercase;
+}
+.top-info {
+    height: 190px;
+}
+.logo-block {
+    float: left;
+}
+.social-list {
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.social-list li {
+    display: inline;
+}
+.social-list li a{
+    text-decoration: none;
+}
+.info-block {
+    margin-right: 12px;
+    margin-top: 20px;
+    float: right;
+}
+.info-item {
+    float: left;
+}
+.info-item img {
+    float: left;
+    background-color: #000;
+}
+.info-item p {
+    font-family: 'FuturaNew';
+    float: left;
+    width: 100px;
+    padding-top: 12px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.info-item.last p {
+    padding-right: 0px;
+    width: 80px;
+}
+.main {
+    margin-top: 140px;
+}
+.row-catalog {
+    overflow: hidden;
+    margin-top: -100px;
+}
+.row-catalog.first {
+    overflow: hidden;
+    margin-top: 0px;
+}
+.product-item {
+    width: 300px;
+    float: left;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+.product-item.last {
+    margin-right: 0px;
+}
+.product-item h3 {
+    font-family: 'Hagin Caps Medium';
+    font-weight: 200;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.product-item h5 {
+    font-family: 'FuturaNewLight';
+    font-size: 14px;
+    margin: 15px 0 20px;
+    width: 200px;
+}
+.product-item p {
+    font-family: 'Hagin Caps Medium';
+    font-weight: 200;
+    width: 150px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    padding: 0px 0px;
+    float: left;
+}
+.product-item button.buy {
+    font-family: 'Hagin Caps Medium';
+    font-weight: 200;
+    width: 150px;
+    text-align: center;
+    color: #fff;
+    background-color: #b71637;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 8px 0px;
+    margin-left: 150px;
+    border: 0;
+    cursor: pointer;
+}
+.meat-info {
+    border: 2px solid #fff;
+    overflow: hidden;
+    padding: 25px;
+    margin-top: 100px;
+}
+.meat-info h3 {
+    font-family: 'Hagin Caps Medium';
+    width: 150px;
+    font-size: 42px;
+    padding-right: 36px;
+    float: left;
+}
+.meat-info img {
+    float: left;
+    padding-right: 66px;
+}
+.meat-info span {
+    font-family: 'FuturaNew';
+    float: left;
+    width: 92px;
+    font-size: 15px;
+    font-weight: 200;
+    padding-right: 55px;
+}
+.meat-info span i {
+    font-style: normal;
+    font-size: 42px;
+    font-weight: 400;
+}
+.meat-info p {
+    font-family: 'FuturaNewLight';
+    font-size: 20px;
+}
+.delivery {
+    margin-top: 120px;
+    background-image: url('/img/car.png');
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 919px;
+}
+.content-del {
+    width: 900px;
+    height: 400px;
+    overflow: hidden;
+    padding-top: 380px;
+    margin: 0 auto;
+}
+.city {
+    margin-left: 240px;
+}
+.city p {
+    font-family: 'FuturaNew';
+    color: #000;
+    font-weight: 600;
+    font-size: 30px;
+}
+.delivery .social-list {
+    width: 100px;
+    margin-top: -250px;
+}
+.contacts {
+    margin-top: 150px;
+}
+.contacts h3 {
+    font-family: 'FuturaNew';
+    font-size: 30px;
+}
+.contacts h4 {
+    padding-top: 25px;
+    font-family: 'FuturaNew';
+    font-size: 36px;
+}
+.contacts h5 {
+    padding-top: 20px;
+    font-family: 'FuturaNew';
+    font-size: 60px;
+}
+#owl-demo {
+    margin-bottom: 50px;
+}
+#owl-demo .item img.slider-img {
+    display: block;
+    height: 587px;
+    width: 100%;
+}
+#owl-demo .active {
+    background-color: transparent;
+    border: 0;
+}
+#owl-demo .active span {
+    background-color: #57ba66;
+}
+#owl-demo span {
+    width: 16px;
+    height: 16px;
+    margin: 5px 3px;
+    background-color: #000;
+}
+#owl-demo .owl-controls {
+    position: absolute;
+    left: 20px;
+    bottom: 80px;
+    z-index: 99;
+}
+#owl-demo .item .slider-header {
+    right: 15px;
+    margin-top: -300px;
+    text-align: right;
+    position: absolute;
+}
+#owl-demo .item .slider-header p {
+    font-family: 'FuturaNewLight';
+    font-size: 14px;
+    float: right;
+    margin-right: 15px;
+    text-align: left;
+    width: 220px;
+}
+#owl-demo .item .slider-header h3 {
+    font-family: 'Hagin Caps Medium';
+    font-size: 80px;
+    width: 310px;
+    font-weight: 200;
+    text-align: right;
+}
+#owl-demo .item .slider-info p {
+    font-family: 'Hagin Caps Medium';
+    font-weight: 200;
+    font-size: 30px;
+    margin-left: 700px;
+    float: left;
+    padding-bottom: 20px;
+    padding-top: 2px;
+}
+#owl-demo .item .slider-info a {
+    font-family: 'Hagin Caps Medium';
+    width: 135px;
+    text-align: center;
+    color: #fff;
+    background-color: #b71637;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 8px 0px;
+}
+#owl-demo .slider-info {
+    float: right;
+    position: relative;
+    margin-top: -50px;
+    z-index: 10;
+    text-align: right;
+    background-color: #000;
+    width: 100%;
+}
+.open-info {
+    background-image: url('/img/triangle.png');
+    width: 35px;
+    height: 37px;
+    float: right;
+    margin-bottom: -55px;
+    position: relative;
+    z-index: 2001;
+    text-align: right;
+    cursor: pointer;
+}
+.open-info span {
+    padding-right: 5px;
+}
+.product-info {
+    margin-top: -4px;
+}
+.burger-info {
+    display: none;
+    z-index: 2000;
+}
+.burger-info p {
+    margin-left: 110px;
+    height: 310px;
+    font-family: 'FuturaNewLight';
+    font-size: 14px;
+    padding: 20px;
+    text-align: left;
+    margin-top: -350px;
+    position: relative;
+    background-color: #000;
+    overflow: hidden;
+}
+.thank h2{
+    text-align: center;
+    font-family: 'Hagin Caps Medium';
+    font-size: 36px;
+}
+.thank h3{
+    text-align: center;
+    font-family: 'FuturaNew';
+    font-weight: 200;
+    font-size: 18px;
+}
+.danger-img{
+    position: absolute;
+    width: 103px;
+    height: 148px;
+    z-index: 159;
+    right: 20px;
+    top:40px;
+}
+.carousel .owl-controls {
+    position: relative;
+    margin: 0 auto;
+    top: -50px;
+    z-index: 99;
+}
+.carousel{
+    height: 342px;
+}
+.carousel .active {
+    background-color: transparent;
+    border: 0;
+}
+.carousel .active span {
+    background-color: #b71637 !important;
+}
+.carousel span {
+    width: 16px !important;;
+    height: 16px !important;;
+    margin: 5px 3px;
+    background-color: #000 !important;;
+}
+.logo-animation {
+  -webkit-animation-duration: 5s;
+  -webkit-animation-delay: 2s;
+}
+.i1 {
+  -webkit-animation-duration: 5s;
+  -webkit-animation-delay: 3s;
+}
+.i2 {
+  -webkit-animation-duration: 5s;
+  -webkit-animation-delay: 5s;
+}
+.i3 {
+  -webkit-animation-duration: 5s;
+  -webkit-animation-delay: 7s;
+}
+.p1 {
+  -webkit-animation-duration: 5s;
+  -webkit-animation-delay: 4s;
+}
+.p2 {
+  -webkit-animation-duration: 5s;
+  -webkit-animation-delay: 6s;
+}
+.p3 {
+  -webkit-animation-duration: 5s;
+  -webkit-animation-delay: 8s;
+}
